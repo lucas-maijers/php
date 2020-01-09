@@ -38,6 +38,8 @@ if ($inlog->fetch()) {
 <html lang="en">
 <body>
 <h1><?php echo $message; ?></h1>
+<p>Accounts zijn: user : wachtwoord is user. (Gebruikers rechten)</p>
+<p>               admin : wachtwoord is admin (Administrator rechten)</p>
 <form action="login.php" method="post">
     Username <input type="text" name="inlognaam" value=""><br>
     Password <input type="password" name="wachtwoord" value=""><br>
