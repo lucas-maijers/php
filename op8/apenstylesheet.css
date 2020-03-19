@@ -1,0 +1,11 @@
+body {
+    font-family: Arial;
+    text-align: center;
+}
+
+a {
+    font-family: 'Bangers', cursive;
+    color: #ff8400;
+    font-size: 30px;
+    text-decoration: none;
+}

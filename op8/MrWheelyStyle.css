@@ -1,0 +1,9 @@
+header{
+    background-image: url("wheelyImages/wheely_header.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-color: black;
+    width: 100%;
+    height: 124px;
+    margin-bottom: 50px;
+}
