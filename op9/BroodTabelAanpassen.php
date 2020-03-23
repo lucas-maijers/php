@@ -29,6 +29,8 @@ $sql = "UPDATE broodjes SET naam='$naam' WHERE image_id=$id";
 
 $sql = "UPDATE broodjes SET soort='$soort' WHERE image_id=$id";
 
+$sql = "UPDATE broodjes SET vorm='$vorm' WHERE image_id=$id";
+
 $sql = "UPDATE broodjes SET gewicht='$gewicht' WHERE image_id=$id";
 
 $sql = "UPDATE broodjes SET image_id='$target_location' WHERE image_id=$id";
